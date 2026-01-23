@@ -1,11 +1,9 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Dashboard() {
   return (
-    <div>
-      <main>
-        <h1>Private Dashboard</h1>
-      </main>
-    </div>
+    <main>
+      <h1>Private Dashboard</h1>
+    </main>
   );
 }
